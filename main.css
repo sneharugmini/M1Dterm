@@ -1,0 +1,89 @@
+/* A */
+/* Class Selector */
+
+@import url('https://fonts.googleapis.com/css?family=Kablammo&display=swap');
+
+.wrapper {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  /* ID Selector */
+  #mainheading {
+    color: #800080;
+  }
+  
+  /* Element Selector */
+  article h2 {
+    font-style: italic;
+  }
+  
+  /* B. Heading Font */
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Kablammo', sans-serif;
+  }
+
+  /*C*/
+  @import url('https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap');
+
+p, table {
+  font-family: 'Alex Brush', cursive;
+  font-size: 1.125rem;
+}
+  
+ 
+  /* D */
+  p, table {
+    font-size: 1rem; 
+  }
+  
+  /* F */
+  .wrapper {
+    width: 80vw; 
+    margin: 0 auto; 
+  }
+  
+  /* g.) Article Padding */
+  article {
+    padding-top: 2em;
+    padding-left: 3em;
+    padding-right: 3em;
+  }
+  
+  /* h.) Background Color for div.wrapper */
+  .wrapper {
+    background-color: #af7a99;
+  }
+  
+  /* i.) Responsive Image */
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* j.) Styling the Footer */
+  footer {
+    background-color: #333;
+    color: #FFF;
+    padding: 3em 0 3em 3em;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+  }
+  
+  /* k.) Styling the Table */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  table th, table td {
+    border: 1px solid #000;
+    padding: 0.5em;
+  }
+
+  
+
+
+  
